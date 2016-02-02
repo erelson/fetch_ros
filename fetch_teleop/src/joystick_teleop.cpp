@@ -46,6 +46,8 @@
 #include <sensor_msgs/JointState.h>
 #include <sensor_msgs/Joy.h>
 #include <topic_tools/MuxSelect.h>
+#include <power_msgs/BreakerState.h>
+#include <fetch_driver_msgs/RobotState.h>
 
 double integrate(double desired, double present, double max_rate, double dt)
 {
